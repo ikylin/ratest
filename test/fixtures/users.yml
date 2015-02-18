@@ -1,0 +1,22 @@
+---
+users_001:
+  id: 1
+  email: 12442835@qq.com
+  encrypted_password: "$2a$10$E5bc7nC8cDQTRVpisbDBWOkjeyo2nD1CrhIDBjOTVJENcDG9DtDkm"
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: '2015-02-18 03:38:01.065174'
+  sign_in_count: 1
+  current_sign_in_at: '2015-02-18 03:38:01.100311'
+  last_sign_in_at: '2015-02-18 03:38:01.100311'
+  current_sign_in_ip: 116.227.137.127
+  last_sign_in_ip: 116.227.137.127
+  confirmation_token: 
+  confirmed_at: '2015-02-18 03:37:49.062902'
+  confirmation_sent_at: '2015-02-18 03:36:38.783162'
+  unconfirmed_email: 
+  failed_attempts: 0
+  unlock_token: 
+  locked_at: 
+  created_at: '2015-02-18 03:36:38.053204'
+  updated_at: '2015-02-18 03:38:01.101885'

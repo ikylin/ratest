@@ -14,8 +14,17 @@ Rails.application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
+  config.action_mailer.raise_delivery_errors = true 
+  config.action_mailer.default_url_options = { host: '115.29.186.47', port: 8001 }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :address => "smtp.yeah.net",  #smtp.qq.com
+    :port => 25,
+    :domain => "yeah.net",   #qq.com
+    :authentication => :login,
+    :user_name => "stocks_ttrade@yeah.net", #修改邮箱
+    :password => "abc123456" #修改正确的密码
+  }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
