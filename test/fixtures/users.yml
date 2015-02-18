@@ -2,21 +2,21 @@
 users_001:
   id: 1
   email: 12442835@qq.com
-  encrypted_password: "$2a$10$E5bc7nC8cDQTRVpisbDBWOkjeyo2nD1CrhIDBjOTVJENcDG9DtDkm"
+  encrypted_password: "$2a$10$JgFrymIqPvDJWyyqvoyEYuGKkeOxkeI0HBvVFsATvyyH5EQpoekfO"
   reset_password_token: 
   reset_password_sent_at: 
-  remember_created_at: '2015-02-18 03:38:01.065174'
-  sign_in_count: 1
-  current_sign_in_at: '2015-02-18 03:38:01.100311'
-  last_sign_in_at: '2015-02-18 03:38:01.100311'
+  remember_created_at: 
+  sign_in_count: 2
+  current_sign_in_at: '2015-02-18 11:33:00.000000'
+  last_sign_in_at: '2015-02-18 11:33:00.000000'
   current_sign_in_ip: 116.227.137.127
   last_sign_in_ip: 116.227.137.127
-  confirmation_token: 
-  confirmed_at: '2015-02-18 03:37:49.062902'
-  confirmation_sent_at: '2015-02-18 03:36:38.783162'
-  unconfirmed_email: 
+  confirmation_token: fb9b0cfd853c50bab0b31fc9acc7113a48cb13ac5cbdbe96e89b5de544101875
+  confirmed_at: '2015-02-18 11:33:00.000000'
+  confirmation_sent_at: '2015-02-18 11:52:00.000000'
+  unconfirmed_email: 124428352@qq.com
   failed_attempts: 0
-  unlock_token: 
+  unlock_token: ''
   locked_at: 
-  created_at: '2015-02-18 03:36:38.053204'
-  updated_at: '2015-02-18 03:38:01.101885'
+  created_at: '2015-02-18 11:33:08.830286'
+  updated_at: '2015-02-18 11:53:19.731562'

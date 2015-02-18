@@ -1,0 +1,35 @@
+---
+versions_001:
+  id: 1
+  item_type: Faq
+  item_id: 1
+  event: create
+  whodunnit: '1'
+  object: 
+  created_at: '2015-02-18 11:56:02.700266'
+  object_changes: "---\nquestion:\n- \n- xinnianhao\nanswer:\n- \n- hongbaonalai\ncreated_at:\n-
+    \n- &1 2015-02-18 11:56:02.700266990 Z\nupdated_at:\n- \n- *1\nid:\n- \n- 1\n"
+  transaction_id: 1
+versions_002:
+  id: 2
+  item_type: Faq
+  item_id: 1
+  event: update
+  whodunnit: '1'
+  object: |
+    ---
+    id: 1
+    question: xinnianhao
+    answer: hongbaonalai
+    created_at: 2015-02-18 11:56:02.700266000 Z
+    updated_at: 2015-02-18 11:56:02.700266000 Z
+  created_at: '2015-02-18 11:56:34.238531'
+  object_changes: |
+    ---
+    answer:
+    - hongbaonalai
+    - hongbaosongshang
+    updated_at:
+    - 2015-02-18 11:56:02.700266000 Z
+    - 2015-02-18 11:56:34.238531431 Z
+  transaction_id: 2

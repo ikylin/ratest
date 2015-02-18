@@ -44,3 +44,5 @@ gem 'rails_admin'
 gem 'devise'
 gem 'cancan'
 gem 'rolify'
+
+gem 'paper_trail', '~> 4.0.0.beta'

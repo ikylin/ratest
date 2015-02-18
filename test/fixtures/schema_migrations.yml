@@ -3,3 +3,11 @@ schema_migrations_001:
   version: '20150218024710'
 schema_migrations_002:
   version: '20150218030405'
+schema_migrations_003:
+  version: '20150218114736'
+schema_migrations_004:
+  version: '20150218114815'
+schema_migrations_005:
+  version: '20150218114816'
+schema_migrations_006:
+  version: '20150218114817'
