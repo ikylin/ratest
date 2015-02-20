@@ -11,3 +11,5 @@ schema_migrations_005:
   version: '20150218114816'
 schema_migrations_006:
   version: '20150218114817'
+schema_migrations_007:
+  version: '20150220093115'

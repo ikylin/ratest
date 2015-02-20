@@ -42,7 +42,7 @@ gem 'spring',        group: :development
 gem 'rails_admin'
 
 gem 'devise'
-gem 'cancan'
+gem 'cancancan', '~> 1.10'
 gem 'rolify'
 
 gem 'paper_trail', '~> 4.0.0.beta'

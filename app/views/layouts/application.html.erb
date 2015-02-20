@@ -10,6 +10,21 @@
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 
+<% if current_user %>
+  <%= link_to('退出', destroy_user_session_path, :method => :delete) %> |
+  <%= link_to('修改密码', edit_registration_path(:user)) %>
+<% else %>
+  <%= link_to('注册', new_registration_path(:user)) %> |
+  <%= link_to('登录', new_session_path(:user)) %>
+<% end %>
+
+<% if user_signed_in? %>
+  <p>The user:<%= current_user.email %>, is loged in.</p>
+  <% if can? :manage, :Home %>
+    <%= link_to "About", welcome_about_path   %>
+  <% end %>
+<% end %>
+
 <%= yield %>
 
 </body>

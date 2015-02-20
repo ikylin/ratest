@@ -6,9 +6,9 @@ users_001:
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 2
-  current_sign_in_at: '2015-02-18 11:33:00.000000'
-  last_sign_in_at: '2015-02-18 11:33:00.000000'
+  sign_in_count: 4
+  current_sign_in_at: '2015-02-20 09:52:59.039997'
+  last_sign_in_at: '2015-02-20 09:35:15.000491'
   current_sign_in_ip: 116.227.137.127
   last_sign_in_ip: 116.227.137.127
   confirmation_token: fb9b0cfd853c50bab0b31fc9acc7113a48cb13ac5cbdbe96e89b5de544101875
@@ -19,4 +19,25 @@ users_001:
   unlock_token: ''
   locked_at: 
   created_at: '2015-02-18 11:33:08.830286'
-  updated_at: '2015-02-18 11:53:19.731562'
+  updated_at: '2015-02-20 09:52:59.041979'
+users_002:
+  id: 2
+  email: 123@qq.com
+  encrypted_password: "$2a$10$q7MFZc0.lXhl/Y.gzYFfbumBrfgtwwim/Iqq/KF.Wu.emTg/qcCR."
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: 
+  sign_in_count: 1
+  current_sign_in_at: '2015-02-20 09:46:51.789243'
+  last_sign_in_at: '2015-02-20 09:46:51.789243'
+  current_sign_in_ip: 116.227.137.127
+  last_sign_in_ip: ''
+  confirmation_token: ''
+  confirmed_at: '2015-02-20 17:45:00.000000'
+  confirmation_sent_at: 
+  unconfirmed_email: ''
+  failed_attempts: 0
+  unlock_token: '2'
+  locked_at: 
+  created_at: '2015-02-20 09:46:37.575460'
+  updated_at: '2015-02-20 09:46:51.790980'

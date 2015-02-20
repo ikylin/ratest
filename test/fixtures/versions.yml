@@ -6,9 +6,9 @@ versions_001:
   event: create
   whodunnit: '1'
   object: 
-  created_at: '2015-02-18 11:56:02.700266'
-  object_changes: "---\nquestion:\n- \n- xinnianhao\nanswer:\n- \n- hongbaonalai\ncreated_at:\n-
-    \n- &1 2015-02-18 11:56:02.700266990 Z\nupdated_at:\n- \n- *1\nid:\n- \n- 1\n"
+  created_at: '2015-02-20 09:45:47.545540'
+  object_changes: "---\nquestion:\n- \n- q1\nanswer:\n- \n- a1\ncreated_at:\n- \n-
+    &1 2015-02-20 09:45:47.545540302 Z\nupdated_at:\n- \n- *1\nid:\n- \n- 1\n"
   transaction_id: 1
 versions_002:
   id: 2
@@ -19,17 +19,51 @@ versions_002:
   object: |
     ---
     id: 1
-    question: xinnianhao
-    answer: hongbaonalai
-    created_at: 2015-02-18 11:56:02.700266000 Z
-    updated_at: 2015-02-18 11:56:02.700266000 Z
-  created_at: '2015-02-18 11:56:34.238531'
+    question: q1
+    answer: a1
+    created_at: 2015-02-20 09:45:47.545540000 Z
+    updated_at: 2015-02-20 09:45:47.545540000 Z
+  created_at: '2015-02-20 09:45:53.869621'
   object_changes: |
     ---
     answer:
-    - hongbaonalai
-    - hongbaosongshang
+    - a1
+    - a2
     updated_at:
-    - 2015-02-18 11:56:02.700266000 Z
-    - 2015-02-18 11:56:34.238531431 Z
+    - 2015-02-20 09:45:47.545540000 Z
+    - 2015-02-20 09:45:53.869621147 Z
   transaction_id: 2
+versions_003:
+  id: 3
+  item_type: Faq
+  item_id: 2
+  event: create
+  whodunnit: '1'
+  object: 
+  created_at: '2015-02-20 09:53:27.100767'
+  object_changes: "---\nquestion:\n- \n- q2\nanswer:\n- \n- a2\ncreated_at:\n- \n-
+    &1 2015-02-20 09:53:27.100767885 Z\nupdated_at:\n- \n- *1\nid:\n- \n- 2\n"
+  transaction_id: 3
+versions_004:
+  id: 4
+  item_type: Faq
+  item_id: 2
+  event: update
+  whodunnit: '1'
+  object: |
+    ---
+    id: 2
+    question: q2
+    answer: a2
+    created_at: 2015-02-20 09:53:27.100767000 Z
+    updated_at: 2015-02-20 09:53:27.100767000 Z
+  created_at: '2015-02-20 09:53:40.883661'
+  object_changes: |
+    ---
+    answer:
+    - a2
+    - a3
+    updated_at:
+    - 2015-02-20 09:53:27.100767000 Z
+    - 2015-02-20 09:53:40.883661368 Z
+  transaction_id: 4
