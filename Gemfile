@@ -46,3 +46,6 @@ gem 'cancancan', '~> 1.10'
 gem 'rolify'
 
 gem 'paper_trail', '~> 4.0.0.beta'
+
+gem 'paperclip', '~> 4.2'
+gem 'rails_admin_jcrop'

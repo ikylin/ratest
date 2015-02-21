@@ -31,4 +31,12 @@ RailsAdmin.config do |config|
     history_index
     history_show
   end
+  
+  config.model Project do
+    configure :asset, :jcrop
+  
+    #field :asset do
+    #  jcrop_options aspectRatio: 500.0/320.0
+    #end
+  end
 end
