@@ -7,4 +7,7 @@ class Role < ActiveRecord::Base
             :allow_nil => true
 
   scopify
+
+  #has_paper_trail
+
 end
