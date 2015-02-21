@@ -1,15 +1,1 @@
----
-projects_001:
-  id: 2
-  name: ''
-  desc: ''
-  created_at: '2015-02-21 01:56:16.698676'
-  updated_at: '2015-02-21 07:09:54.741506'
-  asset_file_name: jesse.jpg
-  asset_content_type: image/jpeg
-  asset_file_size: 96346
-  asset_updated_at: '2015-02-21 02:00:16.906435'
-  startfile_file_name: A_HJD_备选池_2015-02-05.xls
-  startfile_content_type: application/vnd.ms-excel
-  startfile_file_size: 17572
-  startfile_updated_at: '2015-02-21 07:09:54.686593'
+--- {}

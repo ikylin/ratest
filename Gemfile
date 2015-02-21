@@ -49,3 +49,6 @@ gem 'paper_trail', '~> 4.0.0.beta'
 
 gem 'paperclip', '~> 4.2'
 gem 'rails_admin_jcrop'
+
+gem 'acts-as-taggable-on', '~> 3.4'
+

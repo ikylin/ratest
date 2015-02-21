@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :scenes
+
   get 'welcome/about'
   get 'welcome/index'
 
