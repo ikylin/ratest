@@ -11,6 +11,17 @@ class Project < ActiveRecord::Base
   attr_accessor :delete_asset
   before_validation { self.asset.clear if self.delete_asset == '1' }
 
+  has_attached_file :startfile,
+  :path => ":rails_root/public/uploads/:class/:basename.:id.:extension",
+  :url => "/uploads/:class/:basename.:id.:extension",
+  :default_url => "/uploads/default.txt"
+  
+  validates_attachment :startfile, :presence => true,
+  :content_type => { :content_type => ["application/vnd.ms-excel", "application/excel", "text/plain"] } ,
+  #:content_type_mappings => { :xls => "text/plain" },
+  #:matches => [/xls\Z/],
+  :size => { :in => 0..1000.kilobytes }
+
   has_paper_trail
 
   resourcify

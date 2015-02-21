@@ -1,9 +1,1 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  dir: MyString
-  desc: MyText
-
-two:
-  dir: MyString
-  desc: MyText
+--- {}

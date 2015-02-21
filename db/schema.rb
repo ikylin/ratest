@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150221013557) do
+ActiveRecord::Schema.define(version: 20150221031435) do
 
   create_table "apidirs", force: true do |t|
     t.string   "dir"
@@ -57,6 +57,10 @@ ActiveRecord::Schema.define(version: 20150221013557) do
     t.string   "asset_content_type"
     t.integer  "asset_file_size"
     t.datetime "asset_updated_at"
+    t.string   "startfile_file_name"
+    t.string   "startfile_content_type"
+    t.integer  "startfile_file_size"
+    t.datetime "startfile_updated_at"
   end
 
   create_table "roles", force: true do |t|

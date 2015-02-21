@@ -6,11 +6,11 @@ users_001:
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 4
-  current_sign_in_at: '2015-02-20 09:52:59.039997'
-  last_sign_in_at: '2015-02-20 09:35:15.000491'
-  current_sign_in_ip: 116.227.137.127
-  last_sign_in_ip: 116.227.137.127
+  sign_in_count: 10
+  current_sign_in_at: '2015-02-21 06:51:26.328848'
+  last_sign_in_at: '2015-02-21 04:10:48.669266'
+  current_sign_in_ip: 101.80.181.145
+  last_sign_in_ip: 101.80.181.145
   confirmation_token: fb9b0cfd853c50bab0b31fc9acc7113a48cb13ac5cbdbe96e89b5de544101875
   confirmed_at: '2015-02-18 11:33:00.000000'
   confirmation_sent_at: '2015-02-18 11:52:00.000000'
@@ -19,7 +19,9 @@ users_001:
   unlock_token: ''
   locked_at: 
   created_at: '2015-02-18 11:33:08.830286'
-  updated_at: '2015-02-20 09:52:59.041979'
+  updated_at: '2015-02-21 06:51:26.330797'
+  leader_id: 
+  leader_type: 
 users_002:
   id: 2
   email: 123@qq.com
@@ -40,4 +42,6 @@ users_002:
   unlock_token: '2'
   locked_at: 
   created_at: '2015-02-20 09:46:37.575460'
-  updated_at: '2015-02-20 09:46:51.790980'
+  updated_at: '2015-02-20 11:17:17.845197'
+  leader_id: 1
+  leader_type: Project
