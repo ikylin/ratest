@@ -1,19 +1,20 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  devise_for :users
+  root to: 'welcome#index'
+
   resources :scenes
+  resources :faqs
 
   get 'welcome/about'
   get 'welcome/index'
 
-  devise_for :users
 
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  resources :faqs
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root to: 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
