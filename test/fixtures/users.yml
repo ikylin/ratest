@@ -6,9 +6,9 @@ users_001:
   reset_password_token: 
   reset_password_sent_at: 
   remember_created_at: 
-  sign_in_count: 11
-  current_sign_in_at: '2015-02-21 08:21:46.525541'
-  last_sign_in_at: '2015-02-21 06:51:26.328848'
+  sign_in_count: 19
+  current_sign_in_at: '2015-02-22 08:25:20.459841'
+  last_sign_in_at: '2015-02-22 07:45:05.197823'
   current_sign_in_ip: 101.80.181.145
   last_sign_in_ip: 101.80.181.145
   confirmation_token: fb9b0cfd853c50bab0b31fc9acc7113a48cb13ac5cbdbe96e89b5de544101875
@@ -19,7 +19,7 @@ users_001:
   unlock_token: ''
   locked_at: 
   created_at: '2015-02-18 11:33:08.830286'
-  updated_at: '2015-02-21 08:21:46.527495'
+  updated_at: '2015-02-22 08:25:20.462048'
   leader_id: 
   leader_type: 
 users_002:

@@ -64,19 +64,6 @@ ActiveRecord::Schema.define(version: 20150222030213) do
     t.datetime "startfile_updated_at"
   end
 
-  create_table "rich_rich_files", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "rich_file_file_name"
-    t.string   "rich_file_content_type"
-    t.integer  "rich_file_file_size"
-    t.datetime "rich_file_updated_at"
-    t.string   "owner_type"
-    t.integer  "owner_id"
-    t.text     "uri_cache"
-    t.string   "simplified_type",        default: "file"
-  end
-
   create_table "roles", force: true do |t|
     t.string   "name"
     t.integer  "resource_id"
@@ -92,7 +79,6 @@ ActiveRecord::Schema.define(version: 20150222030213) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text     "desc"
   end
 
   create_table "taggings", force: true do |t|

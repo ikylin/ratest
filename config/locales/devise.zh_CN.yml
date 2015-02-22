@@ -1,0 +1,60 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+zh_CN:
+  devise:
+    confirmations:
+      confirmed: "恭喜您，您的邮箱已经被确认成功。"
+      send_instructions: "分分钟内您在本站预留的邮箱中将会受到一封邮箱确认邮件，其中包含了如何激活邮箱的信息，请登录邮箱，注意查收。"
+      send_paranoid_instructions: "分分钟内您在本站预留的邮箱中将会受到一封邮箱确认邮件，其中包含了如何激活邮箱的信息，请登录邮箱，注意查收。"
+    failure:
+      already_authenticated: "恭喜您，您已经成功登录本站。"
+      inactive: "您的账号还未被激活。"
+      invalid: "无效的 %{authentication_keys} 或 密码。"
+      locked: "您的账号已经被锁定。"
+      last_attempt: "处于安全因素考虑，在您的账号被锁定之前，您还有一次尝试用户名/口令的机会，请谨慎操作。"
+      not_found_in_database: "无效的 %{authentication_keys} 或 密码。"
+      timeout: "您已经很久没有操作了，出入安全因素考虑，请重新登录以便继续操作。"
+      unauthenticated: "继续当前的操作，您需要使用本站的账号登录，或者现在就注册一个账号来登录本站。"
+      unconfirmed: "您继续当前操作之前，需要先通过本站发送给您邮箱的确认邮件激活您在本站预留的邮箱地址。"
+    mailer:
+      confirmation_instructions:
+        subject: "激活信息"
+      reset_password_instructions:
+        subject: "重置密码信息"
+      unlock_instructions:
+        subject: "解锁信息"
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: "您的确认连接中缺少口令信息，请确认您使用了确认邮箱中的完整的激活链接。"
+      send_instructions: "分分钟内，我们将给您在本站预留的邮箱中发送一份密码重置的邮件，其中包含如何重置密码的信息，请注意查收，按照邮件中的内容进行操作。"
+      send_paranoid_instructions: "分分钟内，我们将给您在本站预留的邮箱中发送一份密码找回的邮件，请注意查收。"
+      updated: "您的密码已经成功修改，并且您已经成功登录。"
+      updated_not_active: "您的密码已经修改成功。"
+    registrations:
+      destroyed: "您的帐户已经被成功取消，我们期待您下次光临。"
+      signed_up: "恭喜您，您已经成功完成注册。"
+      signed_up_but_inactive: "恭喜您已经成功注册本站，但目前您的帐户还未被激活，因而不能登录。"
+      signed_up_but_locked: "您已经成功注册本站，但目前您的帐户被锁定中，因而不能登录。"
+      signed_up_but_unconfirmed: "我们已经向您在本站预留的邮箱中发送了一份激活邮件，其中包含如何激活账户的信息，请登录邮箱注意查收，并根据说明激活您在本站的账号。"
+      update_needs_confirmation: "恭喜您，你的个人信息已经更新，但由于您变更了邮箱地址，我们已经向您新的邮箱发送一封确认邮件，请登录新的邮箱，根据指示完成新邮箱地址的确认。"
+      updated: "恭喜您，您的账号信息已经更新成功。"
+    sessions:
+      signed_in: "恭喜您，您已经成功登录本站。"
+      signed_out: "您已经安全退出登录状态。"
+      already_signed_out: "您已经安全退出登录状态。"
+    unlocks:
+      send_instructions: "分分钟内，我们将给您在本站预留的邮箱中发送一个一封邮件，其中包含有如何解锁您的账号的说明，请登录邮箱注意查收。"
+      send_paranoid_instructions: "分分钟内，我们将给您在本站预留的邮箱中发送一个一封邮件，其中包含有如何解锁您的账号的说明，请登录邮箱注意查收。"
+      unlocked: "恭喜您，您的账号已经被成功解锁，请使用您的账号登录本站继续操作。"
+  errors:
+    messages:
+      already_confirmed: "您的邮箱已经成功确认，请尝试使用账号登录本站继续操作。"
+      confirmation_period_expired: "确认操作需要在 %{period} 内完成，请重新要求发送确认邮件。"
+      expired: "上次的确认邮件已经过期，请重新请求发送确认邮件。"
+      not_found: "未找到"
+      not_locked: "您的账号未被锁定"
+      not_saved:
+        one: "因为您提交的信息中包含一个错误：因而 %{resource} 未被更新。"
+        other: "因为您提交的信息中包含%{count} 错误；因而 %{resource} 未被更新。"

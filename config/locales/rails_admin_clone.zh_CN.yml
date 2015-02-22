@@ -1,0 +1,7 @@
+zh_CN:
+  admin:
+    actions:
+      clone:
+        title: "复制"
+        menu: "复制"
+        breadcrumb: "复制"

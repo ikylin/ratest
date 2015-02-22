@@ -39,3 +39,13 @@ schema_migrations_019:
   version: '20150221081315'
 schema_migrations_020:
   version: '20150221081316'
+schema_migrations_021:
+  version: '20150221094022'
+schema_migrations_022:
+  version: '20150221094023'
+schema_migrations_023:
+  version: '20150221094024'
+schema_migrations_024:
+  version: '20150221094731'
+schema_migrations_025:
+  version: '20150222030213'

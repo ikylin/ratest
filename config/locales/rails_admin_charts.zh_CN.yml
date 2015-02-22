@@ -1,0 +1,7 @@
+zh_CN:
+  admin:
+    actions:
+      charts:
+        title: "图标"
+        menu: "图标"
+        breadcrumb: "图标"
