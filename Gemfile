@@ -52,3 +52,5 @@ gem 'rails_admin_jcrop'
 
 gem 'acts-as-taggable-on', '~> 3.4'
 
+gem 'enumerize'
+
