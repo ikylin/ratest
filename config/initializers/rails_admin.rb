@@ -21,6 +21,7 @@ RailsAdmin.config do |config|
     index                         # mandatory
     charts
     new
+    clone
     export
     bulk_delete
     show

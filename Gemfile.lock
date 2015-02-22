@@ -133,6 +133,9 @@ GEM
       lazy_high_charts (>= 1.4.3)
       rails (>= 3.2)
       rails_admin (> 0)
+    rails_admin_clone (0.0.6)
+      rails (>= 3.2)
+      rails_admin (>= 0.4)
     rails_admin_jcrop (1.4.0)
       mini_magick
       rails (>= 3.0.0)
@@ -206,6 +209,7 @@ DEPENDENCIES
   rails (= 4.1.4)
   rails_admin
   rails_admin_charts
+  rails_admin_clone
   rails_admin_jcrop
   rolify
   sass-rails (~> 4.0.3)
