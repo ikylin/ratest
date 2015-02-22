@@ -59,6 +59,7 @@ GEM
       railties (>= 3.2, < 5.0)
     haml (4.0.6)
       tilt
+    hash-deep-merge (0.1.1)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.2.7)
@@ -73,6 +74,9 @@ GEM
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    lazy_high_charts (1.5.4)
+      bundler (>= 1.0)
+      hash-deep-merge
     libv8 (3.16.14.7)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -125,6 +129,10 @@ GEM
       remotipart (~> 1.0)
       safe_yaml (~> 1.0)
       sass-rails (>= 4.0, < 6)
+    rails_admin_charts (0.0.12)
+      lazy_high_charts (>= 1.4.3)
+      rails (>= 3.2)
+      rails_admin (> 0)
     rails_admin_jcrop (1.4.0)
       mini_magick
       rails (>= 3.0.0)
@@ -197,6 +205,7 @@ DEPENDENCIES
   paperclip (~> 4.2)
   rails (= 4.1.4)
   rails_admin
+  rails_admin_charts
   rails_admin_jcrop
   rolify
   sass-rails (~> 4.0.3)

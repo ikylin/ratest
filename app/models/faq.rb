@@ -1,4 +1,5 @@
 class Faq < ActiveRecord::Base
+  include RailsAdminCharts
   extend Enumerize
   
   enumerize :ftype, in: [:tool, :use]

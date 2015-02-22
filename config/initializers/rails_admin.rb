@@ -19,6 +19,7 @@ RailsAdmin.config do |config|
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
+    charts
     new
     export
     bulk_delete
